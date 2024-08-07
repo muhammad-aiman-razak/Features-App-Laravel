@@ -8,5 +8,4 @@ Route::get('/', function () {
 });
 
 Route::get('/calculator', [CalculationController::class, 'index']);
-
 Route::post('/calcresult', [CalculationController::class, 'calculate']);
